@@ -4,7 +4,7 @@ dotenv.config();
 
 const config = {
   activityName: 'valorant',
-  numActivityUsers: 1,
+  numActivityUsers: 2,
   desiredChannelId: process.env.DISCORD_CHANNEL_ID,
   desiredMessage: 'Oi, K garira aau {activity} khelna, {num} jana kheliraxan'
 };
