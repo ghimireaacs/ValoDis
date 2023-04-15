@@ -1,9 +1,10 @@
 {
-  "name": "Valorant Discord",
+  "name": "valorant",
   "version": "1.0.0",
-  "description": "",
+  "description": "This bot simply Sends Notification whenever there is someone playing valorant in your server whoever shows up in specific Channel.",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "keywords": [],
@@ -12,5 +13,6 @@
   "dependencies": {
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.3"
-  }
+  },
+  "devDependencies": {}
 }
